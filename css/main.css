@@ -27,6 +27,11 @@ body, html {
   height: 200%;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
