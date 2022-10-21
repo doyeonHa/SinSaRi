@@ -4,18 +4,19 @@ header {
   left: 0;
   right: 0;
   
-  height: 75px;
+  height: 120px;
   padding: 1rem;
   color: white;
-  background: #E84C4C;
+  background: #DE2323;
   font-weight: bold;
+  font-size: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1, p {
-  margin: 0;
+h1{
+  margin-left: 8%;
 }
 
 body {
@@ -30,8 +31,33 @@ body, html {
 a {
   color: white;
   text-decoration: none;
+  margin: 10%;
+  font-size: 20px;
+}
+
+nav{
+  width: 30%;
 }
 
 * {
   box-sizing: border-box;
+}
+
+#img1{
+  width: 70%;
+  margin-top: 5%;
+  border-radius: 3%;
+}
+
+#where-img1{
+  margin: 5%;
+  border: #cecccc solid 2px;
+}
+
+#where{
+  display: inline;
+}
+
+#content{
+  display: inline;
 }
