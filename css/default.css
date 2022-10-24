@@ -1,48 +1,52 @@
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    
-    height: 120px;
-    padding: 1rem;
-    color: white;
-    background: #DE2323;
-    font-weight: bold;
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  padding: 1rem;
+  color: white;
+  background: #B73E3E;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .title {
-    font-size: 3rem;
-  }
+.title {
+  margin: 30px;
+  font-size: 3rem;
+}
 
-  h1{
-    margin-left: 8%;
-  }
+h1{
+  margin-left: 8%;
+}
 
-  body {
-    padding-top: 75px;
-    background: #EEE;
-  }
+body {
+  padding-top: 75px;
+  background: #EEE;
+}
   
-  body, html {
-    height: 200%;
-  }
+body, html {
+  height: 200%;
+}
   
-  a {
-    color: white;
-    text-decoration: none;
-    margin: 10%;
-    font-size: 20px;
-  }
+a {
+  color: white;
+  text-decoration: none;
+  margin: 10%;
+  font-size: 20px;
+}
   
-  nav{
-    width: 30%;
-  }
+nav{
+  width: 30%;
+}
   
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-size: 27px;
+}
